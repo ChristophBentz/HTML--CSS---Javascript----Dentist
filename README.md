@@ -16,7 +16,7 @@ I am also open to suggestions and improvements for my website. If you find any b
 
 ## Contact
 
-If you have any questions or would like to contact me regarding my work as a software developer, you can reach me via email at [Your email address] or message me on GitHub.
+If you have any questions or would like to contact me regarding my work as a software developer, you can reach me via email at christoph.moser1@outlook.de or message me on GitHub.
 
 Thank you for your interest in my dentist website, and I look forward to hearing from you!
 
