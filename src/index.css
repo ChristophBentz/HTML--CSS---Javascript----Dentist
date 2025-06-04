@@ -2,24 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'MaximaNouva';
-  src: url('/fonts/MaximaNouva/MaximaNouva-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'MaximaNouva';
-  src: url('/fonts/MaximaNouva/MaximaNouva-Bold.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@layer base {
-  html {
-    font-family: 'MaximaNouva', system-ui, sans-serif;
+@keyframes wave {
+  0% {
+    background-position-x: 1000px;
   }
+  100% {
+    background-position-x: 0px;
+  }
+}
+
+@keyframes wave-reverse {
+  0% {
+    background-position-x: -1000px;
+  }
+  100% {
+    background-position-x: 0px;
+  }
+}
+
+.animate-wave {
+  animation: wave 4s linear infinite;
+}
+
+.animate-wave-reverse {
+  animation: wave-reverse 4s linear infinite;
 }
